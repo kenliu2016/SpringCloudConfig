@@ -20,4 +20,4 @@ management:
     web:
       exposure:
         include: bus-refresh
-env: test1
+env: test2
