@@ -11,10 +11,10 @@ spring:
       bindings:
         myInput:
           destination: myStream
+          group: order
         myOutput:
           destination: myStream
         myStream:
-          group: order
   datasource:
       driver-class-name: com.mysql.jdbc.Driver
       username: root
