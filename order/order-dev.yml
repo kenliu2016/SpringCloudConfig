@@ -6,6 +6,13 @@ spring:
     port: 5672
     username: guest
     password: guest
+  cloud:
+    stream:
+      bindings:
+        myInput:
+          destination: myStream
+        myOutput:
+          destination: myStream
   datasource:
       driver-class-name: com.mysql.jdbc.Driver
       username: root
