@@ -14,7 +14,6 @@ spring:
           group: order
         myOutput:
           destination: myStream
-        myStream:
   datasource:
       driver-class-name: com.mysql.jdbc.Driver
       username: root
