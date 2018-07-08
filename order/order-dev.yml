@@ -12,6 +12,7 @@ spring:
         myInput:
           destination: myStream
           group: order
+          content-type: application/json
         myOutput:
           destination: myStream
   datasource:
