@@ -1,5 +1,5 @@
 zuul:
   routes:
      myProduct:
-        path: /myProduct/**
+        path: /myyProduct/**
         serviceId: product
